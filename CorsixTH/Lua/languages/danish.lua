@@ -107,7 +107,7 @@ object = {
 
 tooltip.fax.close = "Luk dette vindue uden at fjerne beskeden"
 tooltip.message.button = "Venstreklik for at læse faxen"
-tooltip.message.button_dismiss = "Venstreklik for at åbne faxen.Höjreklik for at ignorere den"
+tooltip.message.button_dismiss = "Venstreklik for at åbne faxen.Højreklik for at ignorere den"
 
 -- 4. Menu 
 menu_options = {
@@ -123,15 +123,15 @@ menu_file.restart = "  START FORFRA  "
 
 menu_debug = {
   jump_to_level               = "  Gå til bane  ",
-  transparent_walls           = "  (K) Gennemsigtige VæGE  ",
-  limit_camera                = "  BEGRæNS KAMERAET  ",
-  disable_salary_raise        = "  STOP LÖNFORHÖJELSER  ",
+  transparent_walls           = "  (K) Gennemsigtige VÆGGE  ",
+  limit_camera                = "  BEGRÆNS KAMERAET  ",
+  disable_salary_raise        = "  STOP LØNFORHØJELSER  ",
   make_debug_fax              = "  LAV FEJLFINDINGS FAX  ",
   make_debug_patient          = "  LAV FEJLFINDINGS PATIENT  ",
-  spawn_patient               = "  GENERER TILFæLDIG PATIENT  ",
-  make_adviser_talk           = "  FÄ RÄDGIVEREN TIL AT SNAKKE  ",
+  spawn_patient               = "  GENERER TILFÆLDIG PATIENT  ",
+  make_adviser_talk           = "  FÄ RÅDGIVEREN TIL AT SNAKKE  ",
   show_watch                  = "  VIS URET ",
-  create_emergency            = "  LAV ET AKUTTILFæLDE  ",
+  create_emergency            = "  LAV ET AKUTTILFÆLDE  ",
   place_objects               = "  PLACER OBJEKTER  ",
   cheats                      = "  (F11) SNYD  ",
   lua_console                 = "  (F12) LUA KONSOL  ",
@@ -163,14 +163,14 @@ adviser = {
 
   cheats = {  
     th_cheat = "Tillykke, du har nu muligheden for at snyde",
-    crazy_on_cheat = "åh nej! Alle lægerne er blevet sköre!",
+    crazy_on_cheat = "Åh nej! Alle lægerne er blevet skøre!",
     crazy_off_cheat = "Puha... Alle lægerne er blevet normale igen.",
     roujin_on_cheat = "Roujin's udfordring er blevet aktiveret! Held og lykke...",
-    roujin_off_cheat = "Roujin's udfordring deaktivateret.",
-    hairyitis_cheat = "Skaldethed snydekoden er aktivateret!",
-    hairyitis_off_cheat = "Skaldethed snydekoden deaktivateret.",
-    bloaty_cheat = "Opsvulmet hoved snydekoden deaktivateret.!",
-    bloaty_off_cheat = "Opsvulmet hoved snydekoden deaktivateret.",
+    roujin_off_cheat = "Roujin's udfordring deaktiveret.",
+    hairyitis_cheat = "Skaldethed snydekoden er aktiveret!",
+    hairyitis_off_cheat = "Skaldethed snydekoden deaktiveret.",
+    bloaty_cheat = "Opsvulmet hoved snydekoden aktiveret!",
+    bloaty_off_cheat = "Opsvulmet hoved snydekoden deaktiveret.",
   },
 }
 
@@ -185,7 +185,7 @@ tooltip.research_policy.no_research = "Der forskes ikke på nuværrende tidspunk
 tooltip.research_policy.research_progress = "Fremskidtet mod den næste opdagelse indenfor dette område: %1%/%2%"
 tooltip.objects.litter = "Skrald: Smidt af dine patienter, da de ikke kunne finde en skraldespand"
 -- Misc
-misc.not_yet_implemented = "(ikke implanteret endnu)"
+misc.not_yet_implemented = "(ikke implementeret endnu)"
 misc.no_heliport = "Enten er der ikke blevet opdaget nogle sygdomme endnu, ellers er der ingen helikopterplads på denne bane."
 
 -- Main menu
@@ -243,8 +243,8 @@ tooltip.menu_list_window = {
 options_window = {
   fullscreen = "Fuldskærm",
   width = "Bredde",
-  height = "Höjde",
-  change_resolution = "Skift oplösning",
+  height = "Højde",
+  change_resolution = "Skift opløsning",
   browse = "Gennemse",
   new_th_directory = "Her kan du specificere en ny installationsmappe for Theme Hospital. Så snart du har gjort det vil spillet genstarte.",
   cancel = "Annullér",
@@ -253,9 +253,9 @@ options_window = {
   
 tooltip.options_window = {
   fullscreen_button = "Klik for at skifte imellem fuldskærmsvisning",
-  width = "Indtast den önskede skærmbrede",
-  height = "Indtast den önskede skærmhöjde",
-  change_resolution = "Skift skærmstörrelsen til dimmensionerne indtastet til höjre",
+  width = "Indtast den ønskede skærmbrede",
+  height = "Indtast den ønskede skærmhöjde",
+  change_resolution = "Skift skærmstørrelsen til dimmensionerne indtastet til højre",
   language = "Vælg %s som sprog",
   original_path = "Theme Hospitals mappe",
   browse = "Gennemse et andet sted for installation af Theme Hospital. %1%",
@@ -267,25 +267,25 @@ new_game_window = {
   medium = "Læge (Mellem)",
   hard = "Konsulent (Svær)",
   tutorial = "Oplæring",
-  cancel = "Annuller",
+  cancel = "Annullér",
 }
 
 tooltip.new_game_window = {
   easy = "Hvis du ikke har erfaring med simulationsspil, er dette niveau det rette",
   medium = "Hvis du er usikker på hvad du skal vælge, er dette niveau en mellemting",
-  hard = "Hvis du er sikker på dine evner og önsker udfordring, bör du vælge denne.",
-  tutorial = "Hvis du önsker lidt hjælp til at komme godt igang, skal du mærkere denne boks.",
+  hard = "Hvis du er sikker på dine evner og ønsker udfordring, bør du vælge denne.",
+  tutorial = "Hvis du ønsker lidt hjælp til at komme godt igang, skal du mærkere denne boks.",
   cancel = "Hmm... Var det ikke meningen, at du ville starte et nyt spil?!",
 }
 
 lua_console = {
-  execute_code = "Kör",
+  execute_code = "Kør",
   close = "Luk",
 }
 
 tooltip.lua_console = {
-  textbox = "Skriv den Lua-kode du vil köre her",
-  execute_code = "Kör koden",
+  textbox = "Skriv den Lua-kode du vil køre her",
+  execute_code = "Kør koden",
   close = "Luk konsollen",
 }
 
@@ -294,25 +294,25 @@ dialog_missing_graphics = "Undskyld, men demo datafilerne har ikke en tekst.",
   save_prefix = "Fejl under gem af spil: ",
   load_prefix = "Fejl under indlæsning af spil: ",
   map_file_missing = "Kunne ikke finde kort filen %s for denne bane!",
-  minimum_screen_size = "Indtast en oplösning på mindst 640x480.",
-   maximum_screen_size = "Indtast en oplösning på maksimalt 3000x2000.",
-  unavailable_screen_size = "Skærmoplösningen du valgte er ikke tilgængelig i fuldskærmsvisning.",
+  minimum_screen_size = "Indtast en opløsning på mindst 640x480.",
+   maximum_screen_size = "Indtast en opløsning på maksimalt 3000x2000.",
+  unavailable_screen_size = "Skærmopløsningen du valgte er ikke tilgængelig i fuldskærmsvisning.",
 }
 
 confirmation = {
   needs_restart = "Hvis du vil benytte disse indstillinger, så kræver det en genstart af CorsixTH. Spil, som ikke er gemt, vil gå tabt. Er du sikker på, at du vil bruge disse indstillinger?",
   abort_edit_room = "Du er ved at opbygge eller ændre et lokale. Hvis alle obligatoriske genstande er placeret, kan du gemme lokalet. Hvis ikke, skal du slette rummet. Fortsætte?",
-  restart = "Er du sikker på at du vil pröve på ny?",
+  restart = "Er du sikker på at du vil prøve på ny?",
 }
 confirmation.restart_level = "Er du sikker på at du vil begynde forfra?"
   
 information = {
   custom_game = "Velkommen til CorsixTH. Hav det sjovt med denne specialbane!",
-  cannot_restart = "Beklageligvis er denne specialbane lavet för genstartfuntionen blev implanteret.",
+  cannot_restart = "Beklageligvis er denne specialbane lavet før genstartfuntionen blev implementeret.",
 level_lost = {
-    "Öv! Du gennemförte ikke banen. Bedre held næste gang!",
+    "Øv! Du gennemførte ikke banen. Bedre held næste gang!",
     "Derfor tabte du:",
-    reputation = "Dit omdömme var under %d.",
+    reputation = "Dit omdømme var under %d.",
     balance = "Din bankbalance var under %d.",
     percentage_killed = "Du har dræbt mere end %d procent af patienterne.",
   },
@@ -323,7 +323,8 @@ tooltip.information = {
 
 totd_window = {
   tips = {
-    "I ethvert hospital er det nödvendigt at have en reception og en lægekonsultation for at komme i gang. Herefter er det, alt efter hvilke patienter der ankommer til dit hospital, op til dig at bygge de nödvendige rum - et apotek er dog altid godt at have.",
+    "I ethvert hospital er det nødvendigt at have en reception og en lægekonsultation for at komme i gang. Herefter er det, alt efter hvilke patienter der ankommer til dit hospital, op til dig 
+at bygge de nødvendige rum - et apotek er dog altid godt at have.",
     "Maskiner, som for eksempel pumperum, har brug for vedligeholdelse. Ansæt en pedel eller to til at vedligeholde dine maskiner, ellers kan du risikere, at dine ansatte eller patienter kommer til skade.",
     "Med tiden bliver dine ansatte trætte. Husk at bygge et personalerum, så de kan slappe af.",
     "Placer radiatorer så dine patienter og ansatte kan holde varmen, ellers bliver de sure. Brug oversigtskortet til at lokalisere områder i dit hospital, som bör være varmere.",
@@ -331,7 +332,7 @@ totd_window = {
     --Juniors and doctors can improve their skills by learning from a consultant in the training room. If the consultant has a special qualification (surgeon, psychiatrist or researcher), he will also pass on this knowledge to his pupil(s).
     "Praktikanter og læger kan forbedre deres kvalifikationer ved at blive undervist af en konsulent i et undervisningslokale. Hvis konsulenten har specielle kvalifikationer (kirurg, psykiater eller forsker), vil han også give disse kvalifikationer videre til sine elever.",
    -- "Did you try to enter the European emergency number (112) into the fax machine? Make sure your sound is on!",
-    "Har du prövet at indtaste det europæriske alarmnummer (1-1-2) på faxmaskinen? Husk at have lyd slået til!",
+    "Har du prøvet at indtaste det europæriske alarmnummer (1-1-2) på faxmaskinen? Husk at have lyd slået til!",
     --"You can adjust some settings such as the resolution and language in the options window found both in the main menu and ingame.",
     "Du kan ændre nogle indstillinger, såsom skærmoplösning og sprog, i indstillingsvinduet som findes både i hovedmenuen og inde i spillet.",
     --"You selected a language other than English, but there's English text all over the place? Help us by translating missing texts into your language!",
@@ -369,9 +370,9 @@ tooltip.totd_window = {
     tooltip.cheats_window = {
   close = "Lukker dialogen",
   cheats = {
-    money = "Overförer 10.000 til din bankkonto.",
+    money = "Overfører 10.000 til din bankkonto.",
     all_research = "Du har forsket alt.",
-    emergency = "Skaber et akkuttilfælde.",
+    emergency = "Skaber et akuttilfælde.",
     create_patient = "Skaber en patient ved udkanten af kortet.",
     end_month = "Går til slutningen af måneden.",
     end_year = "Går til slutningen af året",
